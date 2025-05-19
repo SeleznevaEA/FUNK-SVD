@@ -107,7 +107,7 @@ class FunkSVD:
         plt.tight_layout()
         plt.show()
 
-def generate_synthetic_data(num_users=100, num_items=50, num_ratings=500):
+def generate_synthetic_data(num_users=10000, num_items=5000, num_ratings=50000):
     """
     Генерируем искусственные данные для тестов модельки
     """
